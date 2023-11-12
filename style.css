@@ -1,0 +1,141 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure full viewport height */
+    margin: 0; /* Remove default margin */
+    font-family: 'nunito';
+}
+
+.numero{
+    font-size: 50px;
+}
+.pnumero{
+    font-size: 15px;
+}
+.container{
+    display: flex;
+    box-shadow: 0px 30px 50px gray;
+    border-radius: 30px;
+}
+
+.morado{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#5519EF, #4e2aec);
+    color: white;
+    border-radius: 30px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+
+
+.circulo{
+    background: linear-gradient(#3C0DB4, #4e2aec);
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circulo p {
+    margin: 3px; /* Elimina el margen para reducir cualquier espacio adicional */
+    line-height: 1; /* Ajusta la altura de línea para reducir el espacio vertical */
+}
+
+.cuadrado{
+    width: 200px;
+}
+
+.blanco{
+    border-radius: 30px;
+    width: 250px;
+    padding: 25px;
+
+    
+}
+
+.circulin{
+    background-color: red;
+    display: flex;
+    border-radius: 10px;
+   margin-top: 15px;
+   align-items: center;
+   height: 45px;
+   justify-content: space-between;
+  
+}
+
+.text-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    
+}
+.p{
+    margin-right: 10px;
+    color: rgb(25, 25, 80);
+}
+svg{
+    margin-right: 10px;
+}
+
+button{
+    background-color: rgb(2, 9, 44);
+    color: white;
+    width: 100%;
+    border-radius: 100px;
+    border-style: none;
+    margin-right: 10%;
+    margin-top: 25px;
+    align-items: center;
+    height: 45px;
+   text-align: center;
+
+}
+
+.color0{
+    background-color: rgba(236, 174, 174, 0.37);
+    
+}
+
+.color1{
+    background-color: rgba(236, 235, 174, 0.356);
+}
+
+.color2{
+    background-color: rgba(186, 236, 174, 0.384);
+}
+
+.color3{
+    background-color: rgba(174, 196, 236, 0.363);
+}
+
+
+@media only screen and (max-width: 500px) {
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .morado{
+        width: auto;
+    }
+    
+    .blanco{
+        width: auto;
+    }
+    
+
+    /* Otros estilos específicos para dispositivos móviles */
+}
